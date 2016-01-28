@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.check{
+  display: inline-block;
+  width:100px;
+}
+
+.presentation{
+  margin-top: 80px;
+}
+
+.contact {
+
+  border-left: 3px grey dashed;
+}
+
+.photo{
+  border-top: 3px grey dashed;
+
+}
+
+.photo img {
+  box-shadow: 3px 2px 1px grey;
+}
+
+.propo{
+ border-top: 3px grey dashed;
+ border-left: 3px grey dashed;
+
+}
+
+.experiences {
+  border-top: 3px grey dashed;
+
+}
+
+.competences{
+  border-top: 3px grey dashed;
+  border-left: 3px grey dashed;
+}
+
+
+
+@media (min-width: 668px) {
+  .photo img {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:980px) {
+  .competences, .propo, .contact {
+    border-left: none;
+  }
+
+}
